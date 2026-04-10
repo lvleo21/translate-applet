@@ -1,0 +1,28 @@
+{
+  "layout": {
+    "type": "layout",
+    "pages": ["main"],
+    "main": {
+      "type": "page",
+      "title": "Settings",
+      "sections": ["api"]
+    },
+    "api": {
+      "type": "section",
+      "title": "Groq API",
+      "keys": ["api-key", "groq-model"]
+    }
+  },
+  "api-key": {
+    "type": "entry",
+    "default": "",
+    "description": "Groq API Key",
+    "tooltip": "Get your API key at https://console.groq.com"
+  },
+  "groq-model": {
+    "type": "entry",
+    "default": "llama-3.1-8b-instant",
+    "description": "Groq Model",
+    "tooltip": "e.g. llama-3.1-8b-instant, llama-3.3-70b-versatile, gemma2-9b-it"
+  }
+}

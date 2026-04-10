@@ -1,0 +1,8 @@
+{
+  "uuid": "translate-applet@lvleo21.github.io",
+  "name": "Translate Applet",
+  "description": "Translate clipboard text between English and Brazilian Portuguese using Groq LLM",
+  "icon": "preferences-desktop-locale",
+  "max-instances": 1,
+  "version": "1.0.0"
+}

@@ -1,0 +1,10 @@
+# Claude Code internals
+.claude/
+.agents/
+
+# Project notes
+.infos/
+
+# OS
+.DS_Store
+Thumbs.db

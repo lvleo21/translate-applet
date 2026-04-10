@@ -1,0 +1,74 @@
+/* === TranslateAI — Tactile Utility Design System === */
+
+/* Dialog container */
+.translate-dialog {
+  background-color: #f7fafc;
+  color: #181c1e;
+  border-radius: 12px;
+  padding: 0;
+  min-width: 700px;
+}
+
+/* Language selector chips */
+.translate-lang-chip {
+  background-color: #e0e3e5;
+  color: #181c1e;
+  border-radius: 20px;
+  padding: 5px 14px;
+  font-family: Inter, sans-serif;
+  font-weight: 600;
+  font-size: 0.88em;
+  border: none;
+}
+
+.translate-lang-chip:hover {
+  background-color: #d7dadc;
+}
+
+/* Swap / direction toggle button */
+.translate-swap-btn {
+  background-color: #cbe7f5;
+  border-radius: 20px;
+  padding: 5px 10px;
+  border: none;
+  min-width: 36px;
+}
+
+.translate-swap-btn:hover {
+  background-color: #afcbd8;
+}
+
+.translate-swap-btn:active {
+  background-color: #9abfc9;
+}
+
+/* Icon action buttons (copy, etc.) */
+.translate-icon-btn {
+  background-color: #cbe7f5;
+  border-radius: 6px;
+  padding: 4px 10px;
+  border: none;
+}
+
+.translate-icon-btn:hover {
+  background-color: #afcbd8;
+}
+
+.translate-icon-btn:insensitive {
+  background-color: #ebeef0;
+  color: #707a6b;
+}
+
+/* Close dialog button */
+.translate-close-btn {
+  background-color: #f1f4f6;
+  color: #40493d;
+  border-radius: 6px;
+  padding: 5px 24px;
+  border: none;
+}
+
+.translate-close-btn:hover {
+  background-color: #e5e9eb;
+  color: #181c1e;
+}
